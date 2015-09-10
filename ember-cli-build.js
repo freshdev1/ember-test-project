@@ -17,7 +17,11 @@ module.exports = function(defaults) {
   // If the library that you are including contains AMD or ES6
   // modules that you would like to import into your application
   // please specify an object with the list of modules as keys
-  // along with the exports of each module as its value.
+    // along with the exports of each module as its value.
+
+  app.import('bower_components/bootstrap/dist/css/bootstrap.css');
+  app.import('bower_components/datatables-bootstrap/3/dataTables.bootstrap.css');
+  app.import('bower_components/font-awesome/css/font-awesome.css');
 
   return app.toTree();
 };
