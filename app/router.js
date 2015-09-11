@@ -6,10 +6,10 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-    this.route('admin');
-    this.route('profile');
-    this.route('logout');
-    this.route('paymenttypeslist');
+  this.route('admin');
+  this.route('profile');
+  this.route('logout');
+  this.route('payment-types-list');
 });
 
 export default Router;
