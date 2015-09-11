@@ -1,0 +1,28 @@
+<thead class="gra head-custom ">
+  <tr>
+    <th>Edit</th>
+    <th>Delete</th>
+    <th>Payment Type</th>
+    <th>Name</th>
+    <th>Short Code</th>
+    <th>Deposit Slip</th>
+    <th>Include in Bank File</th>
+    <th>Valid to Pay Mem Acc</th>
+    <th>B/Acct Required</th>
+    <th>Confirmation Required</th>
+    <th>Reference Required</th>
+    <th>Credit Card Required</th>
+    <th>Payee Required</th>
+    <th>Clearance Required</th>
+    <th>Payment Required</th>
+    <th>Affects Bank Account</th>
+    <th>Valid For</th>
+    <th>Default Direct Pay Type</th>
+    <th>Inspecie Benefit Payment</th>
+  </tr>
+</thead>
+<tbody class="tbody-custom">
+  {{#each model as |payType|}}
+    {{payment-type-item model=payType}}
+  {{/each}}
+</tbody>

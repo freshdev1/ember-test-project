@@ -1,0 +1,23 @@
+<td class="text-center">
+    <button class="glyphicon glyphicon-edit no-btn-bg" title="Edit" data-toggle="modal" href="#editModal"></button>
+</td>
+<td class="text-center">
+    <button class="glyphicon glyphicon-remove no-btn-bg" title="Delete" data-toggle="modal"></button>
+</td>
+<td>{{model.paymentType}}</td>
+<td>{{model.name}}</td>
+<td>{{model.shortCode}}</td>
+<td>{{model.depositSlipFlag}}</td>
+<td class="text-center">{{input disabled="true" type="checkbox" checked=model.includeInBankFile }}</td>
+<td class="text-center">{{input disabled="true" type="checkbox" checked=model.bankAccountRequiredFlag }}</td>
+<td>{{model.inoutFlag}}</td>
+<td class="text-center">{{input disabled="true" type="checkbox" checked=model.confirmationRequiredFlag }}</td>
+<td class="text-center">{{input disabled="true" type="checkbox" checked=model.referenceRequiredFlag }}</td>
+<td class="text-center">{{input disabled="true" type="checkbox" checked=model.creditCardRequiredFlag }}</td>
+<td class="text-center">{{input disabled="true" type="checkbox" checked=model.payeeRequiredFlag }}</td>
+<td class="text-center">{{input disabled="true" type="checkbox" checked=model.clearanceRequiredFlag }}</td>
+<td class="text-center">{{input disabled="true" type="checkbox" checked=model.paymentRequiredFlag }}</td>
+<td class="text-center">{{input disabled="true" type="checkbox" checked=model.affectsBankAccountFlag }}</td>
+<td class="text-center">{{input disabled="true" type="checkbox" checked=model.maccPaymentFlag }}</td>
+<td>{{model.defaultDirectPayTypeCode}}</td>
+<td class="text-center">{{input disabled="true" type="checkbox" checked=model.inspecieTransferFlag }}</td>
